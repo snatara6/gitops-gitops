@@ -6,8 +6,8 @@ pipeline {
     disableConcurrentBuilds()  
 }
   agent {
-    node { 
-       lable 'nodejs'
+    node {
+     lable 'nodejs'
   }
 }
   stages {
